@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+body{
+    background: rgb(56, 55, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 50%;
+    color: white;
+    background: rgb(35, 37, 52);
+    border: 2px solid rgb(23, 25, 56);
+    border-radius: 7px;
+}
+
+.inputForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px 100px;
+}
+
+.inputForm:first-child{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.input{
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 2px solid gray;
+    padding: 3px 6px;
+}
+
+#fstsLogo{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 92px;
+    height: 150px;
+    background: white;
+    border-radius: 7px;
+    padding: 0 27px 10px 27px;
+}
+
+#hamza{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background: rgb(252, 62, 5);
+    color: rgb(27, 19, 56);
+    border-radius: 4px;
+    padding: 7px 10px;
+    font-weight: bold;
+}
+
+.submit{
+    background: rgb(252, 62, 5);
+    border: none;
+    padding: 7px 37px;
+    font-size: 20px;
+    margin: 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
